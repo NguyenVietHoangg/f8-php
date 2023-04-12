@@ -1,0 +1,232 @@
+/* _____________________header_____________________ */
+.header {
+    height: 66px;
+    border-bottom: 1px solid #e8ebed;
+    background-color: #fff;
+}
+.header_link img {
+    width: 33px;
+    height: 33px;
+}
+.header_title {
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-left: 16px;
+}
+.header_search {
+    border: 2px solid #e8e8e8;
+    border-radius: 20px;
+}
+.header_search_input {
+    margin-left: 8px;
+    border: none;
+    flex: 1 1;
+    font-size: 1.2rem;
+}
+.header_login {
+    background-color: #f05123;
+    border-radius: 999px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 9px 20px;
+    border: none;
+}
+/* _______________________body______________________ */
+.body {
+    margin-top: 68px;
+}
+.navbar {
+    height: 394px;
+    position: fixed;
+}
+.navbar_item {
+    width: 72px;
+    padding: 20px 0px;
+    margin-top: 8px;
+    border-radius: 16px;
+    color: #404040;
+    cursor: pointer;
+}
+.navbar_item:first-child {
+    height: 44px;
+    width: 44px;
+    margin: 8px 0 8px;
+    background-color: #1473e6;
+    border-color: #1473e6;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar_item-active {
+    background-color: #e8ebed;
+    color: #1a1a1a;
+}
+.navbar_desc {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 6px;
+}
+.slideshow {
+    margin-top: 16px;
+}
+.slideshow_img img {
+    height: 200px;
+    border-radius: 16px;
+}
+
+.slideshow_prev {
+    width: 32px;
+    height: 32px;
+    top: 84px;
+    left: -16px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #070000 !important;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    opacity: 1;
+}
+.slideshow_next {
+    width: 32px;
+    height: 32px;
+    top: 84px;
+    right: -16px;
+    background-color: #fff;
+    border-radius: 50%;
+
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    opacity: 1;
+}
+.slideshow_icon {
+    color: #070000 !important;
+    line-height: 21px;
+}
+.slideshow_btn {
+    padding: 16px 0;
+    display: block;
+    position: static !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.slideshow_btn button {
+    background-color: #9aa6af !important;
+    width: 50px;
+    padding: 2.5px 0 !important;
+    margin-left: 8px !important;
+    border: none !important;
+    border-radius: 9999px !important;
+}
+.slideshow_btn .active {
+    width: 70px;
+}
+
+.content_heading {
+    margin-top: 50px;
+}
+.content_heading_title {
+    color: #242424;
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+.content_heading_Link {
+    color: #f05123;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.content_heading_Link a {
+    color: #f05123;
+    text-decoration: none;
+}
+.content_heading_Link:hover {
+    text-decoration: underline;
+}
+
+.content_courses_block {
+    margin-top: 32px;
+    gap: 30px 50px;
+    flex-wrap: wrap;
+}
+
+.content_courses_item {
+    width: 232px;
+    border: none;
+}
+.content_courses_item img {
+    width: 232px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.content_courses_item h4 {
+    font-weight: 500;
+    color: #292929;
+    font-size: 1.6rem;
+    line-height: 1.4;
+}
+.content_courses_item p {
+    color: #f05123;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.card_color_thin {
+    color: #666 !important;
+    font-size: 1.3rem !important;
+    font-weight: 400 !important;
+}
+.card_color_thick {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #292929;
+}
+.content_courses_item .card-body img {
+    width: 22px;
+    height: 22px;
+}
+
+.footer {
+    background-color: #181821;
+    color: #a9b3bb;
+    padding: 60px 0 40px;
+    margin-top: 60px;
+    position: absolute;
+    z-index: 999;
+}
+.footer_list {
+}
+.footer_img {
+    width: 38px;
+    height: 38px;
+    margin-right: 16px;
+    border-radius: 8px;
+}
+.footer_list li {
+    padding: 8px 0;
+}
+.footer_item_heading {
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 1.3;
+    font-weight: 600;
+}
+.footer_list li a {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    margin-bottom: 8px;
+    color: #a9b3bb;
+}
+.footer_list li:hover a {
+    color: #fff;
+}
+.footer_bottom {
+    margin-top: 48px;
+}
+.footer_bottom img {
+    width: 28px;
+    height: 32px;
+}
